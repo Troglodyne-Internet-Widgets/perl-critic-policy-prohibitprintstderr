@@ -129,11 +129,24 @@ Standard [Perl::Critic::Policy](https://metacpan.org/pod/Perl%3A%3ACritic%3A%3AP
 `printf` or `say` whose filehandle is STDERR, however it is spelled, and
 nothing for one aimed anywhere else.
 
+# BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+[https://github.com/teodesian/perl-critic-policy-prohibitprintstderr/issues](https://github.com/teodesian/perl-critic-policy-prohibitprintstderr/issues)
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
 # AUTHORS
 
 Current Maintainers:
 
 - George S. Baugh <george@troglodyne.net>
+
+# CONTRIBUTOR
+
+George Baugh <andy@troglodyne.net>
 
 # COPYRIGHT AND LICENSE
 
