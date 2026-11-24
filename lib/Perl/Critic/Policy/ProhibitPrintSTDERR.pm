@@ -108,7 +108,7 @@ only the C<print> method is recognised, since that is the one anybody writes.
 
 =cut
 
-Readonly::Scalar my $STDERR_BLOCK_RX => qr/\A [{] \s* \\? \s* [*]? \s* STDERR \s* [}] \z/xms;
+Readonly::Scalar my $STDERR_BLOCK_RX => qr/\A [{] \s* \\? \s* [*]? \s* STDERR \s* [}] \z/xs;
 
 Readonly::Scalar my $DESC => q{Print to STDERR};
 Readonly::Scalar my $EXPL => q{Use warn, which carries the file and line and goes through $SIG{__WARN__} -- or '## no critic' if this is usage text rather than a diagnostic};
