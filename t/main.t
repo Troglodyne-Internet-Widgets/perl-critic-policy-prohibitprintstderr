@@ -71,3 +71,5 @@ is(
 is( violations( join "\n", q{print STDERR "a\n";}, q{print STDERR "b\n";} ), 2, 'each one is counted' );
 
 done_testing();
+
+1;
